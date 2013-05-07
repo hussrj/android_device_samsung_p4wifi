@@ -25,5 +25,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 606076928
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 
-TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
+# Kernel Config
+TARGET_KERNEL_CONFIG := pershoot_samsung_p4wifi-jb_defconfig
+#TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
 
