@@ -26,7 +26,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 606076928
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 
 # Kernel Config
-TARGET_KERNEL_SOURCE := kernel/samsung/p4
+TARGET_KERNEL_SOURCE := kernel/samsung/p4_pershoot
 TARGET_KERNEL_CONFIG := pershoot_samsung_p4wifi-jb_defconfig
 #TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
 
