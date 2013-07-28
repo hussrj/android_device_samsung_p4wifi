@@ -30,3 +30,4 @@ TARGET_KERNEL_SOURCE := kernel/samsung/p4_$(kernelversion)
 TARGET_KERNEL_CONFIG := $(kernelbuild)
 #TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
 
+
