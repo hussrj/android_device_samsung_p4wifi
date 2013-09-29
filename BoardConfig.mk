@@ -29,6 +29,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 #TARGET_KERNEL_SOURCE := kernel/samsung/p4_$(kernelversion)
 #TARGET_KERNEL_SOURCE := kernel/samsung/p4
 #TARGET_KERNEL_CONFIG := $(kernelbuild)
-TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
+#TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
+
+# Test the V2.8 kernel 
+TARGET_KERNEL_SOURCE := kernel/samsung/p4
+TARGET_KERNEL_CONFIG := infamous_p4wifi_defconfig
 
 
