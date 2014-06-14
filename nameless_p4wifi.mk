@@ -31,9 +31,7 @@ $(call inherit-product, device/samsung/p4-common/version.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.romstats.url=http://www.desire.giesecke.tk/romstats/ \
 	ro.romstats.name=nameless_p4wifi \
-	ro.romstats.version=$(ROMSTAT_VER) \
 	ro.romstats.tframe=7 \
 	ro.goo.developerid=beegee_tokyo \
 	ro.goo.board=GT-P7501 \
 	ro.goo.rom=nameless_p4wifi \
-	ro.goo.version=$(GOO_VER)
