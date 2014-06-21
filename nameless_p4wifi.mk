@@ -27,11 +27,11 @@ PRODUCT_RELEASE_NAME := p4wifi
 
 $(call inherit-product, device/samsung/p4-common/version.mk)
 
-# Add some BeeGee versioning stuff
+# romstat versioning
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.romstats.url=http://www.desire.giesecke.tk/romstats/ \
+	ro.romstats.url= \
 	ro.romstats.name=nameless_p4wifi \
 	ro.romstats.tframe=7 \
-	ro.goo.developerid=beegee_tokyo \
+	ro.goo.developerid= \
 	ro.goo.board=GT-P7501 \
 	ro.goo.rom=nameless_p4wifi \
